@@ -20,6 +20,10 @@ DIRECTORY_CONFIGURATION:  /var/lib/aguacate/configuration
 DIRECTORY_SWAGGER:        /var/lib/aguacate/swagger
 ```
 
+# Examples
+
+Example of use at folder services in [demo project](https://github.com/mcnew/aguacate-swagger-demo)
+
 # License
 View [license information](https://www.apache.org/licenses/LICENSE-2.0) for the software contained in this image.
 
