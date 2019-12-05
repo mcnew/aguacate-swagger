@@ -7,8 +7,8 @@ ENV DIRECTORY_DATABASE=/var/lib/aguacate/database \
 
 RUN mkdir -p "$DIRECTORY_DATABASE" "$DIRECTORY_SCRIPT" "$DIRECTORY_CONFIGURATION" "$DIRECTORY_SWAGGER" \
  && rm -rf $CATALINA_HOME/webapps/*
-RUN curl -sSL -o $CATALINA_HOME/webapps/ROOT.war https://repo1.maven.org/maven2/net/sf/aguacate/swagger/aguacate-swagger/0.1.2/aguacate-swagger-0.1.2.war \
- && echo "bce42c04d625a7d977a3ba3bc60e4e687bb4b0b5  $CATALINA_HOME/webapps/ROOT.war" | sha1sum -c - \
+RUN curl -sSL -o $CATALINA_HOME/webapps/ROOT.war https://repo1.maven.org/maven2/net/sf/aguacate/swagger/aguacate-swagger/0.1.4/aguacate-swagger-0.1.4.war \
+ && echo "82ea2a7d1b4f3f02b5d46440c7c429a7eba3046a  $CATALINA_HOME/webapps/ROOT.war" | sha1sum -c - \
  && mkdir "$CATALINA_HOME/webapps/ROOT" \
  && cd "$CATALINA_HOME/webapps/ROOT" \
  && unzip -q "$CATALINA_HOME/webapps/ROOT.war"\
