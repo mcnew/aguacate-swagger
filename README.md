@@ -16,6 +16,8 @@ The default environment for Aguacate Swagger image is
 ```
 DIRECTORY_DATABASE:       /var/lib/aguacate/database
 DIRECTORY_SCRIPT:         /var/lib/aguacate/script
+DIRECTORY_CONNECTOR       /var/lib/aguacate/connector
+DIRECTORY_ENVIRONMENT     /var/lib/aguacate/environment
 DIRECTORY_CONFIGURATION:  /var/lib/aguacate/configuration
 DIRECTORY_SWAGGER:        /var/lib/aguacate/swagger
 ```
